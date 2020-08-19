@@ -138,7 +138,7 @@ function Script() {
 
       const goFaster = () => {
         flyparrot.playbackRate -= 0.2;
-        alice.playbackRate += 0.01;
+        alice.playbackRate += 0.1;
         adjustSceneryPlayback();
         
       }
